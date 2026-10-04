@@ -1,0 +1,208 @@
+[
+  {
+    "id": "_meta",
+    "author": "",
+    "name": "Garden of Sin",
+    "colour": "#004000"
+  },
+  {
+    "id": "weaver",
+    "name": "Weaver",
+    "team": "townsfolk",
+    "ability": "You start knowing a set of players with something in common. Each day, you may privately guess what it is.",
+    "image": "https://placehold.co/400x400/png?text=Weaver",
+    "firstNight": 10,
+    "firstNightReminder": "Show the Weaver a set of players with something in common.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Guessed correctly",
+      "Guessed incorrectly"
+    ],
+    "setup": false
+  },
+  {
+    "id": "stableboy",
+    "name": "Stableboy",
+    "team": "townsfolk",
+    "ability": "Each night, you learn 1 in-play character.",
+    "image": "https://placehold.co/400x400/png?text=Stableboy",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 40,
+    "otherNightReminder": "The Stableboy learns 1 in-play character.",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "genius",
+    "name": "Genius",
+    "team": "townsfolk",
+    "ability": "Each night, choose a good character: you have that ability until you choose again. You are drunk every other night.",
+    "image": "https://placehold.co/400x400/png?text=Genius",
+    "firstNight": 11,
+    "firstNightReminder": "The Genius chooses a good character.",
+    "otherNight": 12,
+    "otherNightReminder": "The Genius chooses a good character (or acts as that ability if they are not drunk).",
+    "reminders": [
+      "Drunk",
+      "Chosen"
+    ],
+    "setup": false
+  },
+  {
+    "id": "poet",
+    "name": "Poet",
+    "team": "townsfolk",
+    "ability": "Each night, choose a player: you learn how many of a particular letter is in their character name. (But not which letter.)",
+    "image": "https://placehold.co/400x400/png?text=Poet",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 41,
+    "otherNightReminder": "The Poet chooses a player. Show the number of a particular letter in that player's character name.",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "astrologer",
+    "name": "Astrologer",
+    "team": "townsfolk",
+    "ability": "Each day, visit the Storyteller to learn 1 piece of false information.",
+    "image": "https://placehold.co/400x400/png?text=Astrologer",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Visited today"
+    ],
+    "setup": false
+  },
+  {
+    "id": "coachman",
+    "name": "Coachman",
+    "team": "townsfolk",
+    "ability": "Each day, 1-word topic on which the Storyteller gives a fact. If your neighbors are different alignments, it is false.",
+    "image": "https://placehold.co/400x400/png?text=Coachman",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Topic given"
+    ],
+    "setup": false
+  },
+  {
+    "id": "nun",
+    "name": "Nun",
+    "team": "townsfolk",
+    "ability": "Good Townsfolk can not be drunk, poisoned, or get false information.",
+    "image": "https://placehold.co/400x400/png?text=Nun",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "prisoner",
+    "name": "Prisoner",
+    "team": "outsider",
+    "ability": "You may not vote. You know 1 not-in-play character. If most players choose to free you, become that character & alignment.",
+    "image": "https://placehold.co/400x400/png?text=Prisoner",
+    "firstNight": 12,
+    "firstNightReminder": "Show the Prisoner 1 not-in-play character.",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Freed",
+      "Not-in-play character"
+    ],
+    "setup": false
+  },
+  {
+    "id": "amaniti",
+    "name": "Amaniti",
+    "team": "minion",
+    "ability": "Your neighbors register falsely to good players' abilities.",
+    "image": "https://placehold.co/400x400/png?text=Amaniti",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "scarecrow",
+    "name": "Scarecrow",
+    "team": "minion",
+    "ability": "To good players, you register as the Demon & the Demon registers as a Minion.",
+    "image": "https://placehold.co/400x400/png?text=Scarecrow",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [],
+    "setup": false
+  },
+  {
+    "id": "daughterofnox",
+    "name": "Daughter of Nox",
+    "team": "minion",
+    "ability": "Good's info is reversed. The 1st time each player names you: lose your ability (if they are good) or regain it (if they are evil).",
+    "image": "https://placehold.co/400x400/png?text=Daughter+of+Nox",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Named: lost ability",
+      "Named: regained ability"
+    ],
+    "setup": false
+  },
+  {
+    "id": "virilus",
+    "name": "Virilus",
+    "team": "demon",
+    "ability": "Each night, choose a player to infect. Infected who nominate, die & infect the nominee. After day 4, evil wins.",
+    "image": "https://placehold.co/400x400/png?text=Virilus",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 30,
+    "otherNightReminder": "The Virilus chooses a player to infect.",
+    "reminders": [
+      "Infected"
+    ],
+    "setup": false
+  },
+  {
+    "id": "therising",
+    "name": "The Rising",
+    "team": "demon",
+    "ability": "All players start dead. If executed, they are raised from the dead. If all players of 1 alignment are alive, their team wins.",
+    "image": "https://placehold.co/400x400/png?text=The+Rising",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Raised"
+    ],
+    "setup": false
+  },
+  "steward",
+  "knight",
+  "noble",
+  "balloonist",
+  "amnesiac",
+  "atheist",
+  "snitch",
+  "puzzlemaster",
+  "marionette",
+  "riot",
+  "leviathan"
+]
