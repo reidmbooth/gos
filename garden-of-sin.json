@@ -19,10 +19,7 @@
     "firstNightReminder": "Show the Weaver a set of players with something in common.",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Guessed correctly",
-      "Guessed incorrectly"
-    ],
+    "reminders": [],
     "setup": false
   },
   {
@@ -78,9 +75,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Visited today"
-    ],
+    "reminders": [],
     "setup": false
   },
   {
@@ -93,9 +88,7 @@
     "firstNightReminder": "",
     "otherNight": 0,
     "otherNightReminder": "",
-    "reminders": [
-      "Topic given"
-    ],
+    "reminders": [],
     "setup": false
   },
   "amnesiac",
@@ -111,6 +104,21 @@
     "otherNight": 0,
     "otherNightReminder": "",
     "reminders": [],
+    "setup": false
+  },
+{
+    "id": "dilettante",
+    "name": "Dilettante",
+    "team": "outsider",
+    "ability": "You think you are an Townsfolk and you have that ability.  Good players who nominate you are drunk until the following dusk.",
+    "image": "https://raw.githubusercontent.com/reidmbooth/gos/refs/heads/main/dilettante.png",
+    "firstNight": 0,
+    "firstNightReminder": "",
+    "otherNight": 0,
+    "otherNightReminder": "",
+    "reminders": [
+      "Is the Dilettante"
+    ],
     "setup": false
   },
   {
@@ -185,7 +193,14 @@
     "otherNight": 30,
     "otherNightReminder": "The Virilus chooses a player to infect.",
     "reminders": [
-      "Infected"
+      "Infected",
+	  "Infected",
+	  "Infected",
+	  "Infected",
+	  "Infected",
+	  "Infected",
+	  "Infected",
+	  "Infected"
     ],
     "setup": false
   },
@@ -195,7 +210,7 @@
     "id": "therising",
     "name": "The Rising",
     "team": "demon",
-    "ability": "All players start dead. If executed, they are raised from the dead. If all players of 1 alignment are alive, their team wins.",
+    "ability": "Most players start dead, vote normally & are resurrected if executed.  The 1st living executee, loses.  After day 4, evil wins.",
     "image": "https://raw.githubusercontent.com/reidmbooth/gos/refs/heads/main/the-rising.png",
     "firstNight": 0,
     "firstNightReminder": "",
